@@ -3,11 +3,16 @@ FROM python:3.7-alpine as base
 FROM base as builder
 
 RUN apk add --update --no-cache build-base &&\
+  pip install pipenv &&\
   mkdir install
 
-WORKDIR /install
+COPY Pipfile /Pipfile
+COPY Pipfile.lock /Pipfile.lock
 
-COPY requirements.txt /requirements.txt
+RUN pipenv install &&\
+  pipenv lock -r > requirements.txt
+
+WORKDIR /install
 
 RUN pip install --install-option="--prefix=/install" -r /requirements.txt
 
