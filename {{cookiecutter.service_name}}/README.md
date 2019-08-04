@@ -21,7 +21,7 @@ Describe your service functionality here.
 
 **Running:**
 
-- Make sure you have `RabbitMQ` instance running using port `5672`.
+- Make sure you have `RabbitMQ` instance running using port `5672`
 - Run `nameko run src.service --config config/nameko.yaml`
 
 **Navigation:**
