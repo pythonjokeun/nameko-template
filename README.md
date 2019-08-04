@@ -1,7 +1,6 @@
 ## Overview
 
-Template for creating microservices using [nameko](https://www.nameko.io/).
-Powered by [cookiecutter](https://github.com/cookiecutter/cookiecutter).
+Template for creating microservices in python using [nameko](https://www.nameko.io/).
 
 ## Usage
 
