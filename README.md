@@ -8,7 +8,7 @@ Powered by [cookiecutter](https://github.com/cookiecutter/cookiecutter).
 
 ```
 pip install cookiecutter
-cookiecutter https://github.com/pythonjokeun/cookiecutter-nameko.git
+cookiecutter gh:pythonjokeun/nameko-template -f
 ```
 
 ## Structure
