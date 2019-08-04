@@ -20,4 +20,4 @@ COPY . /gateway
 
 WORKDIR /gateway
 
-CMD ["/usr/bin/supervisord", "-c", "supervisor.conf"]
+CMD ["/usr/bin/supervisord", "-c", "config/supervisor.conf"]
