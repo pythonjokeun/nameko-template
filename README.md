@@ -2,7 +2,7 @@
 
 Boilerplate for creating microservices in **Python** using [nameko](https://www.nameko.io/).
 
-Powered by [cookiecutter](https://github.com/cookiecutter/cookiecutter)
+Powered by [cookiecutter](https://github.com/cookiecutter/cookiecutter).
 
 ## Usage
 
