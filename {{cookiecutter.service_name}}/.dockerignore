@@ -1,0 +1,7 @@
+Pipfile
+Pipfile.lock
+tests
+test
+.env
+.python-version
+.pytest_cache
