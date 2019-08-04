@@ -1,3 +1,4 @@
 {
-  "service_name": "my_service"
+  "service_name": "my_service",
+  "py_version": "3.7"
 }
