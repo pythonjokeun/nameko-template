@@ -5,13 +5,13 @@ Powered by [cookiecutter](https://github.com/cookiecutter/cookiecutter).
 
 ## Usage
 
-*Prerequisite:*
+Prerequisite:
 
 - [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 - [pyenv](https://github.com/pyenv/pyenv)
 - [pipenv](https://github.com/pypa/pipenv)
 
-*To start new project:*
+To start new project:
 
 ```
 cookiecutter gh:pythonjokeun/nameko-template -f
