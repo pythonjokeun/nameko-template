@@ -1,6 +1,6 @@
 ## Overview
 
-{{ cookiecutter.short_description }}.
+{{ cookiecutter.short_description }}
 
 ## Development
 
