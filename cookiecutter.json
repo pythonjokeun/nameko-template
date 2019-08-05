@@ -1,4 +1,5 @@
 {
   "service_name": "my_service",
-  "py_version": "3.7"
+  "python_version": "3.7",
+  "short_description": "An awesome service."
 }
