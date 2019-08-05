@@ -1,5 +1,6 @@
 {
   "service_name": "my_service",
-  "python_version": "3.7",
+  "service_extension": ["RPC", "HTTP"],
+  "python_version": ["3.7", "3.6", "2.7"],
   "short_description": "An awesome service."
 }
