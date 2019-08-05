@@ -13,7 +13,7 @@ Prerequisite:
 To start new project:
 
 ```
-cookiecutter gh:pythonjokeun/nameko-template -f
+cookiecutter gh:pythonjokeun/nameko-template
 ```
 
 ## Structure
