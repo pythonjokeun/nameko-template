@@ -8,7 +8,8 @@ RUN apk add --no-cache --virtual .build-deps \
     pip install --no-cache-dir pipenv &&\
     pipenv lock -r > requirements.txt &&\
     pip install --no-cache-dir -r requirements.txt && \
-    apk del .build-deps
+    apk del .build-deps &&\
+    rm Pipfile Pipfile.lock requirements.txt
 
 COPY . /{{ cookiecutter.service_name }}
 
