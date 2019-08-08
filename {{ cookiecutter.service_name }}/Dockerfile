@@ -21,8 +21,8 @@ FROM base
 RUN apk add --update --no-cache supervisor
 
 COPY --from=builder /install /usr/local
-COPY . /gateway
+COPY . /{{ cookiecutter.service_name }}
 
-WORKDIR /gateway
+WORKDIR /{{ cookiecutter.service_name }}
 
 CMD ["/usr/bin/supervisord", "-c", "config/supervisor.conf"]
