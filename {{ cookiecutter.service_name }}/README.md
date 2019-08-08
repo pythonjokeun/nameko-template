@@ -13,7 +13,7 @@
 - Spin up a `RabbitMQ` instance at port `5672`
 - Run `nameko run src.service --config config/nameko.yaml`
 
-## Structure
+## Anatomy
 
 - `src/` contains the service logic.
 - `test/` contains code used for unit testing using `pytest`.

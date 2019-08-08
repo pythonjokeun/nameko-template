@@ -16,7 +16,7 @@ To start new project:
 cookiecutter gh:pythonjokeun/nameko-template
 ```
 
-## Structure
+## Anatomy
 
 - `src/` contains the service logic.
 - `test/` contains code used for unit testing using `pytest`.
