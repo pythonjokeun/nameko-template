@@ -4,7 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pytest = "*"
+pytest = "==4.6.5"
 
 [packages]
 nameko = "*"
