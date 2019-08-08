@@ -18,11 +18,9 @@ RUN pip install --install-option="--prefix=/install" -r /requirements.txt
 
 FROM base
 
-RUN apk add --update --no-cache supervisor
-
 COPY --from=builder /install /usr/local
 COPY . /{{ cookiecutter.service_name }}
 
 WORKDIR /{{ cookiecutter.service_name }}
 
-CMD ["/usr/bin/supervisord", "-c", "config/supervisor.conf"]
+CMD ["nameko", "run", "src.service", "--config", "config.yaml"]
